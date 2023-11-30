@@ -1,0 +1,15 @@
+@import "primeflex/primeflex.scss";
+::-webkit-scrollbar {
+  height: 0.35rem;
+  width: 0.25rem;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f100;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--surface-400);
+}
