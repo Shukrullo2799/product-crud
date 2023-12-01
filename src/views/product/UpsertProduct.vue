@@ -95,7 +95,7 @@ const save = () => {
   v$.value.$validate().then((valid) => {
     if (valid) {
       loading_save.value = true;
-      console.log(form);
+      form.created_date = new Date().toISOString();
       form.id
         ? fetchUpdateProduct(form).then(() => {
             loading_save.value = false;
